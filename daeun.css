@@ -1,0 +1,242 @@
+/*
+---참고 사이트들-----
+<롤 모델 블로그> 
+http://www.cantinhodoblog.com.br/2014/11/layout-gratis-para-blog-flowers.html
+
+http://teacupsand.tumblr.com/
+<폰트 모양> 
+http://www.w3schools.com/cssref/css_websafe_fonts.asp
+<컬러> 
+1. http://www.w3schools.com/colors/colors_names.asp
+2. http://html-color-codes.info/Korean/
+<퍼온 이미지> 
+1. https://www.google.co.kr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwiemtrK_rjMAhUStJQKHXdzDPIQjRwIBw&url=http%3A%2F%2Fwww.instiz.net%2Fpt%2F2804825&bvm=bv.120853415,d.dGo&psig=AFQjCNEyzjEs8DGSWlZseHDICL-dPASkvQ&ust=1461905893162459&cad=rjt
+
+2. http://boobiesontoast.tumblr.com/post/109303202649/image-via-we-heart-it-background-beautiful
+
+*/
+
+body {
+    background-color: #ffffe6;
+    background-attachment: fixed;
+    color: #adadad;
+    
+}
+/* 구간 설정 */
+#rightside{
+    position: fixed;
+    width: 50px;
+    height: 100%;
+    margin-left: 800px;
+    background-color: #f8f2f3;
+}
+#centerside{
+    background-color: #FBEFFB;
+    text-align: center;
+    margin:10 auto;
+    
+}
+#container {
+    margin: auto;
+    max-width: 850px;
+    margin-top: -10px;
+}
+     
+#back1 {
+    position: fixed;
+    width: 850px;
+    height: 100%;
+    background-color: #EFFBF8;
+    box-shadow: 0px 0px 6px 2px #F6CED8;
+}
+
+#back_top {
+    width: 315px;
+    position: fixed;
+    height: 360px;
+    background-color: #FBEFF8;
+    width: 800px;
+}
+
+#line {
+    position: fixed;
+    width: 799px;
+    height: 15px;
+    background-color: #BCF5A9;
+    margin-top: 360px;
+    margin-left: 1px;
+    box-shadow: 0px 0px 6px 2px #66ff66;
+}
+
+/* 프로필 사진 설정 */
+#profile{
+    border-radius: 200px;
+    position: fixed;
+    margin-left: 110px;
+    margin-top: 20px;
+
+}
+#profileimage{
+    border-radius: 200px;
+    border: 1px;
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 180px;
+    height: 280px;
+    background-image: url(sunglass.jpeg);
+    z-index: 1;
+    position: fixed;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+#profilebackimage{
+    border-radius: 200px;
+    border: 1px;
+    margin-top: 15px;
+    margin-left: -87px;
+    max-width: 200px;
+    height: 300px;
+    z-index: -1;
+    position: fixed;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    
+}
+#myvalues{
+    position: relative;
+    top: 323px;
+    left: 20px;
+    font-size: 35px;
+    font-family: Brush Script MT ;
+    text-align: center;
+    color: #ff6666;
+    
+}
+/* introduction 문구 */
+.intro {
+    position: relative;
+    top: 340px;
+    width: 180px;
+    height: 115px;
+    padding: 15px;
+    background-color: #faf9f3;
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 1px dashed #eed0d0;
+    }
+
+
+#introdeco1{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -20px;
+    color: #adebe8;
+    font-size: 24px;
+    opacity: .8;
+}
+#introdeco2{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 176px;
+    color: #adebe8;
+    font-size: 24px;
+    opacity: .8
+}
+#introdeco3{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -20px;
+    color: #adebe8;
+    font-size: 24px;
+    opacity: .8;
+    
+}
+#introdeco4{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 176px;
+    color: #adebe8;
+    font-size: 24px;
+    opacity: .8
+    
+}
+
+
+
+/* 프로필 문구 설정 */
+#introduction {
+    width: 180px;
+    height: 115px;
+    overflow: auto;
+    font-size: 15px;
+    font-family:monospace;
+    text-align: center;
+    padding-right: 5px;
+    color: #adadad;
+    }
+
+/* content & background */
+#content {
+    position: fixed;
+    padding: 10px 15px 10px 10px;
+    background-color: #F2F5A9;
+    box-shadow: 0px 0px 6px 2px #ffdb4d;
+    margin-left: 357px;
+    overflow: auto;
+    width: 420px;
+    height: 100%;
+    
+}
+.entry {
+    top: 20px;
+    margin-left: 370px;
+    position: relative;
+    padding: 10px 10px 0px 10px;
+    background-color: #ffffff;
+    text-align: justify;
+    font-size: 15px;
+    color: coral;
+    font-family: roboto condensed;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    width: 400px;
+    text-decoration: none;
+    }
+.entry img{
+    color: coral;
+    box-shadow: 0px 0px 6px 2px #ccffff;
+    max-width: 100%;
+}
+
+.entry a{
+    text-decoration: none;
+    color: coral;
+    
+}
+
+/* menu */
+.navlinks {
+    margin-top: 80px;
+    position: fixed;
+    width: 80px;
+}
+     
+.navlinks a {
+    display: inline-block;
+    width: 90px;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color:coral;
+    background-color: #f5eee3;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    }
+     
+.navlinks a:hover {
+    background-color: #e9c1c3;
+    color: #ffffff;
+    }
+     
