@@ -1,0 +1,100 @@
+#header {
+    background-color: #0000cc;
+    color:#e6ffff;
+    text-align:center;
+    padding:15px;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+body {
+    margin: 0;
+}
+
+
+#menu {
+	text-align:center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #fff7e6;
+    position: fixed;
+    top: 112px;
+    height: 100%;
+    overflow: auto;
+    z-index: 2;
+}
+
+#menu li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+#menu li a.active {
+    background-color: #99bbff;
+    color: white;
+}
+
+#menu li a:hover:not(.active) {
+    background-color: #3333cc;
+	
+    color: white;
+}
+#contents{
+    margin-left: 25%;
+    padding: 100px 10px;
+    
+    
+}
+a{color:#ffff99;}
+
+.mask{
+	width:100%; 
+	height:100%; 
+	position:fixed; 
+	left:0; 
+	top:0; 
+	z-index:10; 
+	background:#000; 
+	opacity:.5; 
+	filter:alpha(opacity=50);
+}
+
+#modalLayer{
+	display:none; 
+	position:relative;
+}
+#modalLayer .modalContent{
+	width:440px; 
+	height:200px; 
+	padding:20px; 
+	border:1px solid #ccc; 
+	position:fixed; 
+	left:50%; 
+	top:50%; 
+	z-index:11; 
+	background:black;
+}
+#modalLayer .modalContent button{
+	position:absolute;
+	right:0;
+	top:0;
+	cursor:pointer;
+}
+
+#footer {
+    background-color:#000066;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    z-index: 4;
+    width: 100%;
+
+}
+
